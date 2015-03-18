@@ -12,7 +12,7 @@ var Image3D = function(container, options){
 	if ( this._support ) {
 		this._initContainer();
 	} else {//模式不支持
-		this.onError("not support");
+		this.onError("您的浏览器不支持此模式哦");
 	}
 };
 Image3D.prototype = {
